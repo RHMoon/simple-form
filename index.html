@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Form</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 class="title">Simple Form Example</h1>
+    <div class="form">
+      <form action="#">
+        <label for="fName">First Name </label><br>
+        <input id="fName" type="text" /><br /><br />
+
+        <label for="lName">Last Name </label><br>
+        <input id="lName" type="text" /><br /><br />
+
+        <label for="age">Age </label><br>
+        <input id="age" type="number" /><br /><br />
+
+        <label for="dateOfBirth">Date of birth</label><br>
+        <input id="dateOfBirth" type="date" placeholder="dd-----yyyy" /><br /><br />
+
+        <label for="gender">Gender </label><br>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="male">Male </label>
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="female">Female </label>
+        <input type="radio" name="gender" id="other" value="other">
+        <label for="other">Other </label><br /><br />
+
+        <label for="occupancy">Occupancy</label><br>
+        <select name="occupancy" id="occupancy">
+            <option value="developer">Developer</option>
+            <option value="manager">Manager</option>
+            <option value="tester">Tester</option>
+        </select><br /><br />
+
+        <input type="checkbox" name="newsletter" id="newsletter">
+        <label for="newsletter">Receive newsletters</label><br /><br />
+
+        <button type="button" onclick="handleSubmitForm()">Submit</button>
+      </form>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>

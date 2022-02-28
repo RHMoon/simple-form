@@ -1,0 +1,23 @@
+.title {
+    width: max-content;
+    border-radius: 4px;
+    margin: 40px auto;
+    vertical-align: middle
+}
+
+.form {
+    width: max-content;
+    border-radius: 4px;
+    margin: 40px auto;
+    vertical-align: middle
+}
+
+.formRow {
+    background-color: white;    
+    text-align: center;
+    padding: 25px 28px;
+    border-radius: 4px;
+    border: 1px solid white;
+    margin: auto;
+    vertical-align: middle
+}
